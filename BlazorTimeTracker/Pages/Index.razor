@@ -1,0 +1,5 @@
+﻿@page "/"
+
+<MudToggleIconButton Toggled="@isRunning" ToggledChanged="OnTimerChanged" 
+                     Icon="@Icons.Material.Filled.PlayArrow" ToggledIcon="@Icons.Material.Filled.Stop"/>
+<MudText>@elapsedTime</MudText>
